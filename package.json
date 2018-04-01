@@ -1,32 +1,45 @@
 {
-  "name": "frontend",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "dependencies": {
-    "jquery": "^3.3.1",
-    "popper.js": "^1.14.1",
-    "touch": "^3.1.0"
-  },
-  "devDependencies": {
-    "grunt": "^1.0.2",
-    "grunt-bootlint": "^0.10.2",
-    "grunt-contrib-connect": "^1.0.2",
-    "grunt-contrib-jshint": "^1.1.0",
-    "grunt-serve": "^0.0.0"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/susandaiute/ADDA-redesign.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/susandaiute/ADDA-redesign/issues"
-  },
-  "homepage": "https://github.com/susandaiute/ADDA-redesign#readme"
+    "title": "A Dog's Day Away",
+    "name": "A Dog's Day Away",
+    "version": "1.0.0",
+    "description": "A casual HTML website theme for small dog doggy daycare",
+    "keywords": [
+        "css",
+        "sass",
+        "html",
+        "responsive",
+        "theme",
+        "template"
+    ],
+    "homepage": "https://github.com/susandaiute/ADDA-redesign#readme",
+    "bugs": {
+        "url": "https://github.com/BlackrockDigital/startbootstrap-business-casual/issues",
+        "email": "feedback@startbootstrap.com"
+    },
+    "license": "MIT",
+    "author": "Start Bootstrap",
+    "contributors": [
+        "David Miller (http://davidmiller.io/)"
+    ],
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/susandaiute/ADDA-redesign.git"
+    },
+    "dependencies": {
+        "bootstrap": "4.0.0",
+        "jquery": "3.3.1"
+    },
+    "devDependencies": {
+        "browser-sync": "2.23.6",
+        "gulp": "^3.9.1",
+        "gulp-clean-css": "3.9.2",
+        "gulp-header": "2.0.1",
+        "gulp-rename": "^1.2.2",
+        "gulp-sass": "^3.1.0",
+        "grunt": "^1.0.2",
+        "grunt-bootlint": "^0.10.2",
+        "grunt-contrib-connect": "^1.0.2",
+        "grunt-contrib-jshint": "^1.1.0",
+        "grunt-serve": "^0.0.0"
+    }
 }
