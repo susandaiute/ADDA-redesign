@@ -5,12 +5,15 @@
   "main": "index.js",
   "dependencies": {
     "jquery": "^3.3.1",
-    "popper.js": "^1.14.1"
+    "popper.js": "^1.14.1",
+    "touch": "^3.1.0"
   },
   "devDependencies": {
     "grunt": "^1.0.2",
+    "grunt-bootlint": "^0.10.2",
     "grunt-contrib-connect": "^1.0.2",
-    "grunt-contrib-jshint": "^1.1.0"
+    "grunt-contrib-jshint": "^1.1.0",
+    "grunt-serve": "^0.0.0"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
